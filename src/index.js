@@ -1,7 +1,3 @@
-import './css/style.css';
-
-import './js/app';
-
 export default function stringifyHelth(person) {
   let healthString = '';
   if (person.health > 50) {
