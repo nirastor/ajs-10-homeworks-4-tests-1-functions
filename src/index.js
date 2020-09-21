@@ -2,7 +2,7 @@ import './css/style.css';
 
 import './js/app';
 
-function stringifyHealth(person) {
+export default function stringifyHelth(person) {
   let healthString = '';
   if (person.health > 50) {
     healthString = 'healthy';
@@ -14,5 +14,3 @@ function stringifyHealth(person) {
 
   return healthString;
 }
-
-stringifyHealth();
